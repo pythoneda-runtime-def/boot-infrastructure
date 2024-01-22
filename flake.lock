@@ -105,16 +105,16 @@
         "pythoneda-shared-runtime-lifecycle-events": "pythoneda-shared-runtime-lifecycle-events"
       },
       "locked": {
-        "lastModified": 1705912579,
-        "narHash": "sha256-U0T/ljuGsGO8ZwWY6zxogQG0GoT35t+kJ7HlIEvXQbs=",
+        "lastModified": 1705926446,
+        "narHash": "sha256-9NgVkX23G/UdR20PbCNuF3eNP1CYuV2JTp2WFBkCacU=",
         "owner": "pythoneda-runtime-def",
         "repo": "boot",
-        "rev": "58dc189871f4264cb17a48abbb41fb5f7f097cf1",
+        "rev": "1a24d5aab50bdc3ef3505c800b6ddfd6cdf798bc",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-runtime-def",
-        "ref": "0.0.1",
+        "ref": "0.0.2",
         "repo": "boot",
         "type": "github"
       }

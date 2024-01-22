@@ -27,7 +27,7 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-banner.follows = "pythoneda-shared-banner";
       inputs.pythoneda-shared-domain.follows = "pythoneda-shared-domain";
-      url = "github:pythoneda-runtime-def/boot/0.0.1";
+      url = "github:pythoneda-runtime-def/boot/0.0.2";
     };
     pythoneda-shared-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -62,8 +62,8 @@
       let
         org = "pythoneda-runtime";
         repo = "boot-infrastructure";
-        version = "0.0.0";
-        sha256 = "1ckpb22gn7khnh5n05zr8akj1w4zbnvp7xxsd9p45vzcm3b538na";
+        version = "0.0.1";
+        sha256 = "1a4hlnr41b87g2n7zcsi0a3n0hfh95cxncjd07adrad5ldlpczd0";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.runtime.boot.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
