@@ -27,7 +27,7 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-banner.follows = "pythoneda-shared-banner";
       inputs.pythoneda-shared-domain.follows = "pythoneda-shared-domain";
-      url = "github:pythoneda-runtime-def/boot/0.0.2";
+      url = "github:pythoneda-runtime-def/boot/0.0.3";
     };
     pythoneda-shared-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -53,7 +53,7 @@
       inputs.pythoneda-shared-banner.follows = "pythoneda-shared-banner";
       inputs.pythoneda-shared-domain.follows = "pythoneda-shared-domain";
       url =
-        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.0";
+        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.1";
     };
   };
   outputs = inputs:
