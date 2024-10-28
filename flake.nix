@@ -20,7 +20,7 @@
   description =
     "Provides the infrastructure to https://github.com/pythoneda-runtime/boot";
   inputs = rec {
-    nixos.url = "github:NixOS/nixpkgs/23.11";
+    nixos.url = "github:NixOS/nixpkgs/24.05";
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
     pythoneda-runtime-boot = {
       inputs.flake-utils.follows = "flake-utils";
