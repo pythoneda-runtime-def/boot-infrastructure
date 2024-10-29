@@ -29,19 +29,19 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-runtime-def/boot/0.0.14";
+      url = "github:pythoneda-runtime-def/boot/0.0.15";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.49";
+      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.51";
     };
     pythoneda-shared-pythonlang-domain = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.40";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.51";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -50,7 +50,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.35";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.38";
     };
     pythoneda-shared-runtime-lifecycle-events-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -60,7 +60,7 @@
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
       url =
-        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.12";
+        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.13";
     };
   };
   outputs = inputs:
