@@ -43,17 +43,17 @@
       },
       "locked": {
         "dir": "esdbclient",
-        "lastModified": 1707764998,
-        "narHash": "sha256-Op0o7E32KYnNOGCAgdwtcauM19gKdQYCXeMHaDbbKtg=",
+        "lastModified": 1731731825,
+        "narHash": "sha256-kOddDyUkMJEJm14yCbfW+DYceAzo/QRD8KDf92IcJJo=",
         "owner": "rydnr",
         "repo": "nix-flakes",
-        "rev": "b1b4c9c15a5d56cad76bfbbb5c1cd9340aa59409",
+        "rev": "a83da54f986cb6a60dc9b71309f186e97a604cff",
         "type": "github"
       },
       "original": {
         "dir": "esdbclient",
         "owner": "rydnr",
-        "ref": "0.1.17",
+        "ref": "esdbclient-1.1.3",
         "repo": "nix-flakes",
         "type": "github"
       }
@@ -107,16 +107,16 @@
         "pythoneda-shared-runtime-lifecycle-events": "pythoneda-shared-runtime-lifecycle-events"
       },
       "locked": {
-        "lastModified": 1731743984,
-        "narHash": "sha256-WM0AwVuh3i/WZXOnCQJvVfSeFG2iTKYLMRXFlv/Wfho=",
+        "lastModified": 1731914473,
+        "narHash": "sha256-eONfFWNLNKw9KX0e8gtAquY7f8FmvESDvvJTuXto0Z8=",
         "owner": "pythoneda-runtime-def",
         "repo": "boot",
-        "rev": "908013a7e81d65ad98c6acb51d329bcf8eebb505",
+        "rev": "1a7afe4fd66d2de273cd2f31a9640f4ca3c82097",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-runtime-def",
-        "ref": "0.0.20",
+        "ref": "0.0.21",
         "repo": "boot",
         "type": "github"
       }
@@ -131,16 +131,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731668408,
-        "narHash": "sha256-oCzYR2e8hCD9nvjbg1rKHyfZf6t/n75fPYwSiZPZG94=",
+        "lastModified": 1731909765,
+        "narHash": "sha256-KwLX3cDzRu/lgW9jryFatoySIfCGxATzR1leH/n9LuI=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "banner",
-        "rev": "a68e4aebbe346d7514ae23d9bd743626854a46ac",
+        "rev": "7e72e325d16a769dbc7aba91a023366ff3e93fad",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.61",
+        "ref": "0.0.62",
         "repo": "banner",
         "type": "github"
       }
@@ -158,16 +158,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731760774,
-        "narHash": "sha256-BJq/fVgsYpNRnYX0mk++S2tmmP8QfUWZFYMyngIDDvw=",
+        "lastModified": 1731909823,
+        "narHash": "sha256-O34ValNAJ88X+pka794tq9Ez4Xydx/1QLGPSKjqWLcA=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "domain",
-        "rev": "5160f6fbd264456a28bcae53765758c8c0b54232",
+        "rev": "c241b0a52a229c023437e023522c49db4213a2ff",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.70",
+        "ref": "0.0.75",
         "repo": "domain",
         "type": "github"
       }
@@ -189,16 +189,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731778745,
-        "narHash": "sha256-fCwKUtwkASCzfmspEic7IsZ9JiyLZSFTqqwtG0wkHo8=",
+        "lastModified": 1731909894,
+        "narHash": "sha256-JSYSah99IAbypOME6GfvohgLTQrgyKdJbf6kipqFIMI=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "infrastructure",
-        "rev": "111d6e28f5a5962afc9a8294d6d3977ec11ad8d9",
+        "rev": "5f80c0ad0091182812d30e72b4da440aa3821043",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.51",
+        "ref": "0.0.54",
         "repo": "infrastructure",
         "type": "github"
       }
@@ -224,16 +224,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731739873,
-        "narHash": "sha256-Ltcq0KKcEba02BbHQmUoTDNTA65/99+/xCavzyYUVjw=",
+        "lastModified": 1731909894,
+        "narHash": "sha256-JSYSah99IAbypOME6GfvohgLTQrgyKdJbf6kipqFIMI=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "infrastructure",
-        "rev": "9d85364698de31858ad3a8ae968b75112aac1c37",
+        "rev": "5f80c0ad0091182812d30e72b4da440aa3821043",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.47",
+        "ref": "0.0.54",
         "repo": "infrastructure",
         "type": "github"
       }
@@ -258,16 +258,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731743622,
-        "narHash": "sha256-AEuEL6Qf1HMQWmA3n3xYhHeoczeCrzgpyEY11g913OI=",
+        "lastModified": 1731914117,
+        "narHash": "sha256-FnDbjmhHv92HSNz/PVdAs60bmgT2W3TTKwUIRkSh5oY=",
         "owner": "pythoneda-shared-runtime-def",
         "repo": "lifecycle-events",
-        "rev": "22398778edcb66a16f7c4cbfd0c8affa5a78502a",
+        "rev": "73ba29e63e7b6880c811370ddca17ebf39e551a7",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-runtime-def",
-        "ref": "0.0.20",
+        "ref": "0.0.21",
         "repo": "lifecycle-events",
         "type": "github"
       }
@@ -290,16 +290,16 @@
         "pythoneda-shared-runtime-lifecycle-events": "pythoneda-shared-runtime-lifecycle-events_2"
       },
       "locked": {
-        "lastModified": 1731743695,
-        "narHash": "sha256-YWQeSWnkChcKcrLqX/3wS3Gsd2jVaKVdGhcIk/L31Vk=",
+        "lastModified": 1731914197,
+        "narHash": "sha256-mo1BWMab2jyFe1wG9PYgFJ0FZwmlB03ir+ol86w2Xcg=",
         "owner": "pythoneda-shared-runtime-def",
         "repo": "lifecycle-events-infrastructure",
-        "rev": "2431c91d4d86cedd536583157e8570aec5d56510",
+        "rev": "b280e861847be44f43e2c9e47d6844acdadd051f",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-runtime-def",
-        "ref": "0.0.18",
+        "ref": "0.0.19",
         "repo": "lifecycle-events-infrastructure",
         "type": "github"
       }
@@ -324,16 +324,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731743622,
-        "narHash": "sha256-AEuEL6Qf1HMQWmA3n3xYhHeoczeCrzgpyEY11g913OI=",
+        "lastModified": 1731914117,
+        "narHash": "sha256-FnDbjmhHv92HSNz/PVdAs60bmgT2W3TTKwUIRkSh5oY=",
         "owner": "pythoneda-shared-runtime-def",
         "repo": "lifecycle-events",
-        "rev": "22398778edcb66a16f7c4cbfd0c8affa5a78502a",
+        "rev": "73ba29e63e7b6880c811370ddca17ebf39e551a7",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-runtime-def",
-        "ref": "0.0.20",
+        "ref": "0.0.21",
         "repo": "lifecycle-events",
         "type": "github"
       }
