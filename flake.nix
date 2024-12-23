@@ -29,7 +29,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-runtime-def/boot/0.0.43";
+      url = "github:pythoneda-runtime-def/boot/0.0.45";
     };
     pythoneda-shared-pythonlang-banner = {
       inputs.flake-utils.follows = "flake-utils";
@@ -41,7 +41,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.107";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.108";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -50,7 +50,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.82";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.83";
     };
     pythoneda-shared-runtime-lifecycle-events-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -60,7 +60,7 @@
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
       url =
-        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.41";
+        "github:pythoneda-shared-runtime-def/lifecycle-events-infrastructure/0.0.42";
     };
   };
   outputs = inputs:
@@ -69,8 +69,8 @@
       let
         org = "pythoneda-runtime";
         repo = "boot-infrastructure";
-        version = "0.0.3";
-        sha256 = "1p5mp8yki064jakajwjasy0ssi7blndwyr7w5wsaicnvv0rmrv0l";
+        version = "0.0.4";
+        sha256 = "1flg7m7w3zhmfkxxzgvv23387g9jhp6h6q8dhasqdb96wip61zab";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.runtime.boot.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
